@@ -29,7 +29,7 @@ class AlouiPay extends PaymentModule
         $this->name                   = 'alouiPay';
         $this->tab                    = 'payments_gateways';
         $this->version                = '1.0';
-        $this->author                 = 'ALOUI Mohamed HABIB';
+        $this->author                 = 'ALOUI Mohamed Habib';
         $this->controllers            = array('payment', 'validation');
         $this->currencies             = true;
         $this->currencies_mode        = 'checkbox';
